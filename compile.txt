@@ -1,0 +1,77 @@
+/home/frank/anaconda3/bin/python /media/frank/URUBUTURBO/PESQUISA/security-couse/t.py
+(base) frank@urubu:/media/frank/URUBUTURBO/PESQUISA/security-couse$ /home/frank/anaconda3/bin/python /media/frank/URUBUTURBO/PESQUISA/security-couse/t.py
+Traceback (most recent call last):
+  File "/media/frank/URUBUTURBO/PESQUISA/security-couse/t.py", line 40, in <module>
+    encontrar_links_em_pdfs("Criptografia.pdf")
+  File "/media/frank/URUBUTURBO/PESQUISA/security-couse/t.py", line 5, in encontrar_links_em_pdfs
+    for arquivo in os.listdir(pasta_pdf):
+                   ^^^^^^^^^^^^^^^^^^^^^
+NotADirectoryError: [Errno 20] Not a directory: 'Criptografia.pdf'
+(base) frank@urubu:/media/frank/URUBUTURBO/PESQUISA/security-couse$ /home/frank/anaconda3/bin/python /media/frank/URUBUTURBO/PESQUISA/security-couse/t.py
+^CTraceback (most recent call last):
+  File "/media/frank/URUBUTURBO/PESQUISA/security-couse/t.py", line 1, in <module>
+    import fitz  # PyMuPDF
+    ^^^^^^^^^^^
+  File "/home/frank/anaconda3/lib/python3.12/site-packages/fitz/__init__.py", line 2, in <module>
+    from pymupdf import *
+  File "/home/frank/anaconda3/lib/python3.12/site-packages/pymupdf/__init__.py", line 360, in <module>
+    from . import mupdf
+  File "/home/frank/anaconda3/lib/python3.12/site-packages/pymupdf/mupdf.py", line 55879, in <module>
+    class ll_pdf_walk_tree_outparams(object):
+KeyboardInterrupt
+
+(base) frank@urubu:/media/frank/URUBUTURBO/PESQUISA/security-couse$ /home/frank/anaconda3/bin/python /media/frank/URUBUTURBO/PESQUISA/security-couse/t.py
+Traceback (most recent call last):
+  File "/media/frank/URUBUTURBO/PESQUISA/security-couse/t.py", line 40, in <module>
+    encontrar_links_em_pdfs("/media/frank/URUBUTURBO/PESQUISA/security-couse/Criptografia.pdf")
+  File "/media/frank/URUBUTURBO/PESQUISA/security-couse/t.py", line 5, in encontrar_links_em_pdfs
+    for arquivo in os.listdir(pasta_pdf):
+                   ^^^^^^^^^^^^^^^^^^^^^
+NotADirectoryError: [Errno 20] Not a directory: '/media/frank/URUBUTURBO/PESQUISA/security-couse/Criptografia.pdf'
+(base) frank@urubu:/media/frank/URUBUTURBO/PESQUISA/security-couse$ /home/frank/anaconda3/bin/python /media/frank/URUBUTURBO/PESQUISA/security-couse/t.py
+Traceback (most recent call last):
+  File "/media/frank/URUBUTURBO/PESQUISA/security-couse/t.py", line 40, in <module>
+    encontrar_links_em_pdfs("")
+  File "/media/frank/URUBUTURBO/PESQUISA/security-couse/t.py", line 5, in encontrar_links_em_pdfs
+    for arquivo in os.listdir(pasta_pdf):
+                   ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+(base) frank@urubu:/media/frank/URUBUTURBO/PESQUISA/security-couse$ /home/frank/anaconda3/bin/python /media/frank/URUBUTURBO/PESQUISA/security-couse/t.py
+🔍 Verificando: Criptografia.pdf
+Página 7 tem 1 links.
+➡️ Link encontrado: https://www.101computing.net/cipher-wheel.html na posição Rect(69.25225067138672, 372.5649719238281, 423.1288757324219, 389.3649597167969)
+Página 15 tem 2 links.
+➡️ Link encontrado: https://drive.google.com/file/d/1jPEcorfSIlaSWulDta9s53XOC7qjanQR/view?usp=sharing na posição Rect(305.0625915527344, 185.5631103515625, 398.2742004394531, 278.7778625488281)
+➡️ Link encontrado: https://drive.google.com/file/d/1RQWdZ61OdP66snM8TIWAieg_mG-sYaSK/view?usp=sharing na posição Rect(479.6735534667969, 126.14749145507812, 530.1508178710938, 176.6244354248047)
+Página 17 tem 1 links.
+➡️ Link encontrado: https://csrc.nist.gov/glossary/term/nist_approved na posição Rect(564.1604614257812, 149.42323303222656, 668.7431030273438, 168.62322998046875)
+Página 58 tem 1 links.
+➡️ Link encontrado: https://drive.google.com/file/d/1KvG-RODe4Bwojlsfiq9RvhSHyeR41rTG/view?usp=sharing na posição Rect(464.2322692871094, 252.81692504882812, 720.0009155273438, 398.1751708984375)
+Página 66 tem 1 links.
+➡️ Link encontrado: https://www.kali.org/tools/binwalk/ na posição Rect(597.04443359375, 162.69606018066406, 664.0380859375, 186.69606018066406)
+Página 68 tem 2 links.
+➡️ Link encontrado: https://drive.google.com/file/d/1tYPkuwm8aoKa3wLETWytHvh8PIWww4oh/view?usp=sharing na posição Rect(122.94291687011719, 11.604339599609375, 584.0703125, 359.75396728515625)
+➡️ Link encontrado: https://github.com/ciberseguranca-pucpr/esteganografia na posição Rect(111.32650756835938, 366.5039367675781, 661.9625854492188, 388.10394287109375)
+Página 69 tem 2 links.
+➡️ Link encontrado: https://www.hackingarticles.in/comprehensive-guide-to-steghide-tool/ na posição Rect(18.692913055419922, 195.23031616210938, 719.9842529296875, 229.17520141601562)
+➡️ Link encontrado: https://www.hackingarticles.in/comprehensive-guide-to-steghide-tool/ na posição Rect(25.442913055419922, 201.98031616210938, 678.1895751953125, 221.18031311035156)
+(base) frank@urubu:/media/frank/URUBUTURBO/PESQUISA/security-couse$ steghide extract -sf chave.jpg 
+Enter passphrase: 
+(base) frank@urubu:/media/frank/URUBUTURBO/PESQUISA/security-couse$ steghide extract -sf ciphertext.jpg 
+Enter passphrase: 
+(base) frank@urubu:/media/frank/URUBUTURBO/PESQUISA/security-couse$ steghide extract -sf ciphertext.jpg 
+Enter passphrase: 
+wrote extracted data to "enunciado.txt.gpg".
+(base) frank@urubu:/media/frank/URUBUTURBO/PESQUISA/security-couse$ steghide extract -sf chave.jpg 
+Enter passphrase: 
+wrote extracted data to "stegpass.txt".
+(base) frank@urubu:/media/frank/URUBUTURBO/PESQUISA/security-couse$ steghide extract -sf decryptography.jpg 
+Enter passphrase: 
+wrote extracted data to "decriptacao.txt".
+(base) frank@urubu:/media/frank/URUBUTURBO/PESQUISA/security-couse$ gpg --output decriptacao.txt --decrypt enunciado.txt.gpg
+gpg: dados criptografados com AES256.CFB
+gpg: criptografado com 1 frase secreta
+gpg: descriptografia falhou: Chave de sessão incorreta
+(base) frank@urubu:/media/frank/URUBUTURBO/PESQUISA/security-couse$ gpg --output decriptacao.txt --decrypt enunciado.txt.gpg
+gpg: dados criptografados com AES256.CFB
+gpg: criptografado com 1 frase secreta
