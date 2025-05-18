@@ -32,4 +32,6 @@ def encontrar_links_em_pdfs(pasta_pdf):
 
             doc.close()
 
-encontrar_links_em_pdfs("/media/frank/URUBUTURBO/PESQUISA/security-couse/")
+# Usa o diretório atual do script
+pasta_atual = os.getcwd()
+encontrar_links_em_pdfs(pasta_atual)
