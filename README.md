@@ -1,5 +1,6 @@
 # Decriptação de mensagens em imagens dentro de PDF
 
+Este repositório contém uma atividade prática de segurança da informação com foco em esteganografia e criptografia simétrica. A proposta consiste em extrair dados ocultos de uma imagem utilizando a ferramenta steghide e, em seguida, descriptografar o conteúdo extraído com GPG, identificando o algoritmo de criptografia (AES256) a partir de pistas fornecidas nos slides. A atividade foi realizada em ambiente Ubuntu, e as senhas utilizadas foram deduzidas com base em dicas simples, como senhas comuns ou informações visuais. O objetivo principal é demonstrar, de forma didática, como técnicas de ocultação e proteção de dados podem ser combinadas em um cenário prático.
 ## Extração das imagens no PDF
 
 **Objetivo:** Aplicar um script que obtenha todos os links do PDF e depois obter aquele que fosse do Google Drive (pois uma das imagens que era o do ovo estava no Google Drive - se não fosse por este script estaria até hoje procurando as imagens  😂 😂 😂).
