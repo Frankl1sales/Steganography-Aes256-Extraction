@@ -30,11 +30,6 @@ def encontrar_links_em_pdfs(pasta_pdf):
                         xref = imagem[0]
                         img_bbox = doc.extract_image(xref)['bbox'] if 'bbox' in doc.extract_image(xref) else None
 
-                        # OBS: bbox de imagem nem sempre está disponível diretamente.
-                        # Podemos apenas assumir que links próximos a imagens são "em cima delas".
-                        # Alternativamente, usar `page.get_displaylist().get_textpage().extractDICT()` para layout.
-
             doc.close()
 
-# Exemplo de uso
 encontrar_links_em_pdfs("/media/frank/URUBUTURBO/PESQUISA/security-couse/")
